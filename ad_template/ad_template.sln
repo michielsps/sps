@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "ad_template", "ad_template\ad_template.deployproj", "{433BC878-0845-46EB-B4B4-2E010CE0D44B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{433BC878-0845-46EB-B4B4-2E010CE0D44B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433BC878-0845-46EB-B4B4-2E010CE0D44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433BC878-0845-46EB-B4B4-2E010CE0D44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433BC878-0845-46EB-B4B4-2E010CE0D44B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9429944-D3B8-49F0-AEE5-0E913BF8024C}
+	EndGlobalSection
+EndGlobal

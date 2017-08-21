@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "domainName": {
+      "value": "testsps.nl"
+    },
+    "dnsPrefix": {
+      "value": "testsps"
+    },
+    "adminUsername": {
+      "value": "adminSPS"
+    },
+    "adminPassword": {
+      "reference": {
+        "keyVault": {
+          "id": "/subscriptions/1f0b0e58-d03c-45cd-91cb-88aaecaa89a6/resourceGroups/VAULTS/providers/Microsoft.KeyVault/vaults/vaultChielD"
+        },
+        "secretName": "adminCred"
+      }
+    },
+    "_artifactsLocationSasToken": {
+      "reference": {
+        "keyVault": {
+          "id": "/subscriptions/1f0b0e58-d03c-45cd-91cb-88aaecaa89a6/resourceGroups/VAULTS/providers/Microsoft.KeyVault/vaults/vaultChielD"
+        },
+        "secretName": "adminCred"
+      }
+    }
+  }
+}
